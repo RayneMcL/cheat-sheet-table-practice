@@ -1,0 +1,64 @@
+h1, h2{
+  text-align: center; 
+}
+
+body {
+  font-family: Kode Mono, Arial, sans-serif;
+  background-color: grey;
+}
+
+table {
+  border: 4px solid green;
+  background-color: yellow;
+  margin: 0 auto;
+  width: 650px;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  border-spacing: 2px;
+  white-space: normal;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: internal-center;
+}
+
+td {
+  border-top: 1px solid green;
+  border-right: 1px solid green;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle; 
+  border-color: inherit;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.code {
+  background-color: grey;
+  font-family: monospace;
+}
